@@ -9,8 +9,6 @@ public class Coin : MonoBehaviour
 
     public void OnCoinClicked() {
 
-		//Debug.Log ("Hello", gameObject);
-
         // Instantiate the CoinPoof Prefab where this coin is located
 		Instantiate(CoinPoof, transform.position, Quaternion.identity);
 
